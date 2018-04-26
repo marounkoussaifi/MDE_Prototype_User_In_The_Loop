@@ -1,0 +1,51 @@
+package interceptorCompo;
+
+import java.util.ArrayList;
+
+import FacadeAdapter.IBinding;
+import FacadeAdapter.UnbindingFailure;
+import OCPlateforme.OCService;
+import MockupCompo.*;
+import MockupFacadeAdapter.MockupFacadeAdapter;
+
+public class Interceptor  implements IBinding {
+
+	 private Enregistrement e;
+	private MockupFacadeAdapter f1;
+	
+	@Override
+	public void bind(OCService service1, OCService service2) {
+		e.enregistrerBind(service1, service2);
+		f1.bind(service1, service2);
+		
+		
+	}
+	
+	
+	public MockupFacadeAdapter getF1() {
+		return f1;
+	}
+
+
+	public void setF1(MockupFacadeAdapter f1) {
+		this.f1 = f1;
+	}
+
+
+	public Interceptor() {
+		e=new Enregistrement();
+		f1=new MockupFacadeAdapter();
+	}
+
+	@Override
+	public void unbind(OCService service1, OCService service2) throws UnbindingFailure {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+		
+	
+
+}

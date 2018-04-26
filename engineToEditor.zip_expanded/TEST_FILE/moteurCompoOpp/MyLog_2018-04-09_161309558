@@ -1,0 +1,26 @@
+avr. 09, 2018 4:13:09 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:09:621 [Service Report Service of Component Report Generator] [Service Report Service of Component Polling Station] - bind
+avr. 09, 2018 4:13:09 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:09:621 [Service Teacher Command Service of Component Teacher Remote Control] [Service Teacher Command Service of Component Polling Station] - bind
+avr. 09, 2018 4:13:09 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:09:621 [Service Vote Service of Component Student Remote Control] [Service Vote Service of Component Polling Station] - bind
+avr. 09, 2018 4:13:09 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:09:637 [Service Vote Service of Component Student Remote Control, Service Vote Service of Component Student Remote Control] [Service Vote Service of Component Polling Station] - bind
+avr. 09, 2018 4:13:10 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:10:638 [Service Vote Service of Component Student Remote Control, Service Vote Service of Component Student Remote Control, Service Value Service of Component Vertical Slider] [Service Vote Service of Component Polling Station] - bind
+avr. 09, 2018 4:13:13 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:13:642 [Service Report Service of Component Report Generator] [Service Report Service of Component Polling Station] - unbind
+avr. 09, 2018 4:13:13 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:13:651 [Service Teacher Command Service of Component Teacher Remote Control] [Service Teacher Command Service of Component Polling Station] - unbind
+avr. 09, 2018 4:13:13 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:13:651 [Service Vote Service of Component Student Remote Control, Service Vote Service of Component Student Remote Control, Service Value Service of Component Vertical Slider] [Service Vote Service of Component Polling Station] - unbind
+avr. 09, 2018 4:13:13 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:13:653 [Service Vote Service of Component Student Remote Control, Service Value Service of Component Vertical Slider] [Service Vote Service of Component Polling Station] - unbind
+avr. 09, 2018 4:13:16 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:16:663 [Service Report Service of Component Polling Station] [Service Order Service of Component Order Generator] - bind
+avr. 09, 2018 4:13:16 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:16:664 [Service Menu Service of Component Menu Visualisation] [Service Menu Service of Component Order Generator] - bind
+avr. 09, 2018 4:13:16 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:16:666 [Service Value Service of Component Vertical Slider, Service Vote Service of Component Student Remote Control] [Service Vote Service of Component Polling Station] - bind
+avr. 09, 2018 4:13:16 PM logService.LogService setLog
+INFOS: 2018-04-09 16:13:16:666 [Service Value Service of Component Vertical Slider, Service Vote Service of Component Student Remote Control, Service Vote Service of Component Student Remote Control] [Service Vote Service of Component Polling Station] - bind

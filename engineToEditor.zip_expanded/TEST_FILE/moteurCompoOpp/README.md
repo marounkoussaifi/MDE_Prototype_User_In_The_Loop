@@ -1,0 +1,2 @@
+# moteurCompoOppo
+opportunistic composition engine

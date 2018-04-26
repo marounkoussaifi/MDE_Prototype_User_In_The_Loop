@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/EcoreTest/src" modelPluginID="EcoreTest" modelName="Container"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="5.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>../../FirstTest/metamodel/Container.ecore</foreignModel>
+  <genPackages prefix="Myapp" disposableProviderFactory="true" ecorePackage="Container.ecore#/">
+    <genClasses ecoreClass="Container.ecore#//Container">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Container.ecore#//Container/component"/>
+    </genClasses>
+    <genClasses ecoreClass="Container.ecore#//Component">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Container.ecore#//Component/componentName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Container.ecore#//Component/service"/>
+    </genClasses>
+    <genClasses ecoreClass="Container.ecore#//RequiredService">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Container.ecore#//RequiredService/providedservice"/>
+      <genOperations ecoreOperation="Container.ecore#//RequiredService/Get"/>
+    </genClasses>
+    <genClasses ecoreClass="Container.ecore#//ProvidedService">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Container.ecore#//ProvidedService/requiredservice"/>
+      <genOperations ecoreOperation="Container.ecore#//ProvidedService/Get"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="Container.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Container.ecore#//Service/ServiceName"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
